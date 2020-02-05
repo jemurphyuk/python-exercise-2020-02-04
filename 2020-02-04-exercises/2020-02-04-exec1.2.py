@@ -1,7 +1,7 @@
 
-name = input("Hello, what is your first name? :    ").capitalize().strip()
-eye_colour = input(f"{name} huh, what a lovely name! What colour are your eyes? :    ").lower()
-hair_colour = input("Beautiful! What about the colour of your hair? :    ").lower()
+name = input("Hello, what is your first name? :    ").strip().capitalize()
+eye_colour = input(f"{name} huh, what a lovely name! What colour are your eyes? :    ").strip().lower()
+hair_colour = input("Beautiful! What about the colour of your hair? :    ").strip().lower()
 age = int(input (f"Gorgeous! And finally {name}, how old are you? :    ").strip())
 
 
